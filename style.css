@@ -13,11 +13,8 @@ header{
 }
 nav{
     background-color: rgba(231, 231, 231, 0.067);
-    position: relative;
-    bottom: 40px;
-    height: 105vh;
-    display: flex;
-    flex-direction: column;  
+    position: relative;  bottom: 40px;   height: 105vh;
+    display: flex;  flex-direction: column;  
 }
 ul{
     list-style: none;
@@ -33,10 +30,9 @@ ul{
 }
 nav ul li a {
     color: white;
-    text-decoration: none;
+    text-decoration: none;   font-size: 10px;
     text-shadow: 2px 3px 2px black;
     font-family: 'Nunito', sans-serif;
-    font-size: 10px;
     position: relative;   
 }
 nav ul li a:hover{
@@ -46,8 +42,7 @@ nav ul li a:hover{
 .dlchange{
     z-index: 1;
     position: fixed;
-    top: 30%;
-    left:2%;
+    top: 30%;  left:2%;
 }
 #logo{
     position: relative;
@@ -55,25 +50,19 @@ nav ul li a:hover{
     top:50%;
 }
 .split{
-    width: 100%;
-    height: 4vh;
+    width: 100%; height: 4vh;
     background-color: rgba(228, 227, 232, 0.683);
-    position: relative;
-    bottom: 3.5%;
+    position: relative;  bottom: 3.5%;
 }
 #tldm{
     color: rgb(241, 241, 241);
-    font-size: 12px;
-    position: relative;
+    font-size: 12px;  position: relative;
 }
 #first-page{
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(27, 27, 27);
+    width: 100%; height: 100vh;
+    background-color: rgb(27, 27, 27); box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.342);
     position: relative;
-    box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.342);
-    background-image: url("gif.gif");
-    background-size: cover;   
+    background-image: url("gif.gif");  background-size: cover;   
 }
 #pic{
     width: 100%;
@@ -81,141 +70,96 @@ nav ul li a:hover{
 }
 #first-page-button{
     color: rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0);
-    background:transparent; 
-    border:solid; 
-    border-width: thin ;
+    background-color: rgba(255, 255, 255, 0); background:transparent; 
+    border:solid; border-width: thin ;
     padding:6px 2px;
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
-    position: relative;
-    text-decoration: none;
-    text-align: center;
-    width: 60%;
-    left: 18%;   
+    font-size: 15px; font-family: 'Open Sans', sans-serif;
+    position: relative; text-decoration: none;
+    text-align: center; width: 60%; left: 18%;   
 }
 #first-page-container{
-    position: relative;
-    text-align: left;
-    width: 60%;
-    left: 30%;
-    top: 37%;
-    display: flex;
-    flex-direction: column;
+    position: relative; text-align: left;
+    width: 60%; left: 30%; top: 37%;
+    display: flex; flex-direction: column;
     }
 #first-page h1{
     color: rgb(217, 217, 217);
-    text-align: center;
-    position: relative;
-    font-size: 21px;
-    transition: 1s;
-    text-shadow: 6px 6px 3px rgba(0, 0, 0, 0.388);   
-    font-family: 'Open Sans', sans-serif;
+    text-align: center; position: relative; font-size: 21px;
+    transition: 1s;     text-shadow: 6px 6px 3px rgba(0, 0, 0, 0.388);    font-family: 'Open Sans', sans-serif;
 }
 #name-bold{
     font-size: 21px;
-    color: rgb(0, 182, 189);
-    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 182, 189); font-family: 'Open Sans', sans-serif;
 }
 #projects-page{
-    width: 100%;
-    height: 340vh;
-    background-color:rgb(52, 23, 132);
-    position: relative;
-    padding-top: 40px;
+    width: 100%; height: 340vh;
+    background-color:rgb(52, 23, 132); position: relative; padding-top: 40px;
 }
 #ptitle{
     color: rgb(243, 243, 243);
-    text-align: left;
-    position: relative;
+    text-align: left; position: relative;
     font-family: 'Oswald', sans-serif;
-    font-size: 28px;
-    left: 9%;
+    font-size: 28px;  left: 9%;
     text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.587);
 }
 #project{
     border-radius: 2px;
     position: relative;
-    width: 85%;
-    height: 70vh;
-    left: 8%;
-    background-color: rgb(245, 240, 240);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
+    width: 85%; height: 70vh; left: 8%;
+    background-color: rgb(245, 240, 240); box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
 }
 #p-img{
     width: 100%;
     height: 30vh;
-    background-image: url("clindo-img.png");
-    background-size: cover;
+    background-image: url("clindo-img.png");  background-size: cover;
     
 }
 #p-img2{
     width: 100%;
     height: 30vh;
-    background-image: url("nintendo-img.png");
-    background-size: cover;
+    background-image: url("nintendo-img.png"); background-size: cover;
   
 }
 #p-img3{
     width: 100%;
     height: 30vh;
-    background-image: url("interiorDesign-img.png");
-    background-size: cover;
+    background-image: url("interiorDesign-img.png"); background-size: cover;
 }
 #p-img4{
     width: 100%;
     height: 30vh;
-    background-image: url("converter.png");
-    background-size: cover;
+    background-image: url("converter.png"); background-size: cover;
 }
 #description{
     width: 88%;
-    text-align: left;
-    position: relative;
-    left: 11%;
-    color: rgb(61, 61, 61);
-    font-family: 'Open Sans', sans-serif;
+    text-align: left; position: relative; left: 11%;
+    color: rgb(61, 61, 61); font-family: 'Open Sans', sans-serif;
 }
 #title{
-    position: relative;
-    left: 11%;
-    color: rgba(37, 37, 37, 0.774);
-    font-family: 'Oswald', sans-serif;
+    position: relative; left: 11%;
+    color: rgba(37, 37, 37, 0.774); font-family: 'Oswald', sans-serif;
 }
 #buttons-section{
-    width:60%;
-    display: flex;
-    position: relative;
-    justify-content: space-evenly;
-    left: 20%;
+    width:60%; display: flex; position: relative;
+    justify-content: space-evenly; left: 20%;
     bottom: -20px;
 }
 #button{
-    
     color: rgb(229, 229, 229);
-    border: none;
-    background-color: rgba(3, 40, 127, 0.971);
-    font-size: 12px;
-    padding: 10px 25px;
-    position: relative;
-    border-radius: 2px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.621);
-    text-decoration: none;
+    border: none; background-color: rgba(3, 40, 127, 0.971);
+    font-size: 12px; padding: 10px 25px;
+    position: relative; border-radius: 2px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.621); text-decoration: none;
 }
 #vap-button{
     background-color: rgba(3, 40, 127, 0.971);
-    border-radius: 5px;
-    padding:       10px 10px;
-    border-color: rgba(206, 126, 126, 0);
-    color:#ffffff;
-    display:inline-block;
-    font:normal bold 12px/1 "Open Sans", sans-serif;
+    border-radius: 5px; padding:10px 10px;
+    border-color: rgba(206, 126, 126, 0); color:#ffffff;
+    display:inline-block; font:normal bold 12px/1 "Open Sans", sans-serif;
     text-align:center;
-    font-family:'Nunito', sans-serif;
-    width:40%;
+    font-family:'Nunito', sans-serif; width:40%;
     position:relative;
-    top: 70px;
-    left: 30%;
+    top: 70px; left: 30%;
     box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.61);
 }
 #resume{
@@ -224,73 +168,49 @@ nav ul li a:hover{
     background-color:rgb(52, 23, 132);
 }
 #resume-container{
-    width: 100%;
-    height: 70vh;
-    position: relative;
-    top: 6%;
+    width: 100%; height: 70vh;
+    position: relative; top: 6%;
     background-color: rgba(228, 227, 232, 0.683);
 }
 form{
-    width: 100%;
-    height: 10vh;
-    position: relative;
-    color: white;
-    text-shadow: 3px 3px 3px black;
-    font-size: 20px;
-    font-family: 'Nunito', sans-serif;
+    width: 100%; height: 10vh;
+    position: relative; color: white; text-shadow: 3px 3px 3px black;
+    font-size: 20px; font-family: 'Nunito', sans-serif;
     color: rgb(255, 255, 255);
 }
 .email{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    position: relative;
-    padding-bottom: 20px;
-    font-family: 'Oswald', sans-serif;
+    display: flex; flex-direction: column;
+    text-align: center; position: relative;
+    padding-bottom: 20px; font-family: 'Oswald', sans-serif;
 }
 .email input{
    position: relative;
-   width: 70%;
-   left: 12% ;
-   box-shadow: 3px 3px 3px black;
-   border-radius: 5px;
+   width: 70%; left: 12% ;
+   box-shadow: 3px 3px 3px black; border-radius: 5px;
 }
 .message{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    font-family: 'Oswald', sans-serif;
+    display: flex; text-align: center;
+    flex-direction: column; font-family: 'Oswald', sans-serif;
 }
 .message input {
-    height: 15vh;
-    width: 70%;
+    height: 15vh; width: 70%;
     position: relative;
-    left: 13% ;
-    box-shadow: 3px 3px 3px black;
-    top: 20px;
-    border-radius: 5px;
+    left: 13% ; box-shadow: 3px 3px 3px black;
+    top: 20px; border-radius: 5px;
 }
 form button{
-    background-color: rgba(3, 40, 127, 0.971);
-    border-radius: 5px;
-    padding:       10px 10px;
-    border-color: rgba(206, 126, 126, 0);
-    color:#ffffff;
-    display:inline-block;
-    font:normal bold 12px/1 "Open Sans", sans-serif;
-    text-align:center;
-    font-family:'Nunito', sans-serif;
-    width:40%;
+    background-color: rgba(3, 40, 127, 0.971); border-radius: 5px; padding:10px 10px; border-color: rgba(206, 126, 126, 0);
+    color:#ffffff; display:inline-block;
+    font:normal bold 12px/1 "Open Sans", sans-serif; text-align:center;
+    font-family:'Nunito', sans-serif; width:40%;
     position:relative;
-    top: 70px;
-    left: 30%;
+    top: 70px; left: 30%;
     box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.61);
 }
 .contact-us{
     color: rgb(253, 253, 253);
     text-align: center;
-    font-size: 35px;
-    font-family: 'Oswald', sans-serif;
+    font-size: 35px; font-family: 'Oswald', sans-serif;
 }
 .grid-container {
     display: grid;
@@ -300,10 +220,8 @@ form button{
   }
   .grid-item {
     background-color: rgba(214, 0, 0, 0);
-    border: 1px solid rgba(226, 226, 226, 0.116);
-    color: rgb(200, 200, 200);
-    padding: 20px;
-    font-size: 12px;
+    border: 1px solid rgba(226, 226, 226, 0.116); color: rgb(200, 200, 200);
+    padding: 20px; font-size: 12px;
     text-align: center;
   }
  #contact-page{
