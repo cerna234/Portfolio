@@ -4,6 +4,14 @@ html,body {
     display: flex; flex-direction: column;
     scroll-behavior: smooth; background-color: rgb(8, 15, 80);
 }
+#back{
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+   
+
+}
 header{
     z-index: 1;
     position: absolute;
