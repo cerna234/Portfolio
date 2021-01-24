@@ -1,0 +1,509 @@
+html,body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    background-color: rgb(8, 15, 80);
+}
+header{
+    z-index: 1;
+    position: absolute;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    background-color: rgba(231, 231, 231, 0.067);
+    position: relative;
+    bottom: 40px;
+    height: 105vh;
+    display: flex;
+    flex-direction: column;  
+}
+ul{
+    list-style: none;
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    position: relative;
+    top: 240px;
+    color: white;
+    flex-direction: column;
+    right: 45%;
+    height: 15vh;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 3px 2px black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    position: relative;   
+}
+nav ul li a:hover{
+    color: red;
+    text-shadow: none;
+}
+.dlchange{
+    z-index: 1;
+    position: fixed;
+    top: 30%;
+    left:2%;
+}
+#logo{
+    position: relative;
+    color: white;
+    top:50%;
+}
+.split{
+    width: 100%;
+    height: 4vh;
+    background-color: rgba(228, 227, 232, 0.683);
+    position: relative;
+    bottom: 3.5%;
+}
+#tldm{
+    color: rgb(241, 241, 241);
+    font-size: 12px;
+    position: relative;
+}
+#first-page{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(27, 27, 27);
+    position: relative;
+    box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.342);
+    background-image: url("gif.gif");
+    background-size: cover;   
+}
+#pic{
+    width: 100%;
+    height: 100%;
+}
+#first-page-button{
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    background:transparent; 
+    border:solid; 
+    border-width: thin ;
+    padding:6px 2px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    width: 60%;
+    left: 18%;   
+}
+#first-page-container{
+    position: relative;
+    text-align: left;
+    width: 60%;
+    left: 30%;
+    top: 37%;
+    display: flex;
+    flex-direction: column;
+    }
+#first-page h1{
+    color: rgb(217, 217, 217);
+    text-align: center;
+    position: relative;
+    font-size: 21px;
+    transition: 1s;
+    text-shadow: 6px 6px 3px rgba(0, 0, 0, 0.388);   
+    font-family: 'Open Sans', sans-serif;
+}
+#name-bold{
+    font-size: 21px;
+    color: rgb(0, 182, 189);
+    font-family: 'Open Sans', sans-serif;
+}
+#projects-page{
+    width: 100%;
+    height: 340vh;
+    background-color:rgb(52, 23, 132);
+    position: relative;
+    padding-top: 40px;
+}
+#ptitle{
+    color: rgb(243, 243, 243);
+    text-align: left;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    left: 9%;
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.587);
+}
+#project{
+    border-radius: 2px;
+    position: relative;
+    width: 85%;
+    height: 70vh;
+    left: 8%;
+    background-color: rgb(245, 240, 240);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
+}
+#p-img{
+    width: 100%;
+    height: 30vh;
+    background-image: url("clindo-img.png");
+    background-size: cover;
+    
+}
+#p-img2{
+    width: 100%;
+    height: 30vh;
+    background-image: url("nintendo-img.png");
+    background-size: cover;
+  
+}
+#p-img3{
+    width: 100%;
+    height: 30vh;
+    background-image: url("interiorDesign-img.png");
+    background-size: cover;
+}
+#p-img4{
+    width: 100%;
+    height: 30vh;
+    background-image: url("converter.png");
+    background-size: cover;
+}
+#description{
+    width: 88%;
+    text-align: left;
+    position: relative;
+    left: 11%;
+    color: rgb(61, 61, 61);
+    font-family: 'Open Sans', sans-serif;
+}
+#title{
+    position: relative;
+    left: 11%;
+    color: rgba(37, 37, 37, 0.774);
+    font-family: 'Oswald', sans-serif;
+}
+#buttons-section{
+    width:60%;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    left: 20%;
+    bottom: -20px;
+}
+#button{
+    
+    color: rgb(229, 229, 229);
+    border: none;
+    background-color: rgba(3, 40, 127, 0.971);
+    font-size: 12px;
+    padding: 10px 25px;
+    position: relative;
+    border-radius: 2px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.621);
+    text-decoration: none;
+}
+#vap-button{
+    background-color: rgba(3, 40, 127, 0.971);
+    border-radius: 5px;
+    padding:       10px 10px;
+    border-color: rgba(206, 126, 126, 0);
+    color:#ffffff;
+    display:inline-block;
+    font:normal bold 12px/1 "Open Sans", sans-serif;
+    text-align:center;
+    font-family:'Nunito', sans-serif;
+    width:40%;
+    position:relative;
+    top: 70px;
+    left: 30%;
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.61);
+}
+#resume{
+    width: 100%;
+    height: 180vh;
+    background-color:rgb(52, 23, 132);
+}
+#resume-container{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    top: 6%;
+    background-color: rgba(228, 227, 232, 0.683);
+}
+form{
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.email input{
+   position: relative;
+   width: 70%;
+   left: 12% ;
+   box-shadow: 3px 3px 3px black;
+   border-radius: 5px;
+}
+.message{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+}
+.message input {
+    height: 15vh;
+    width: 70%;
+    position: relative;
+    left: 13% ;
+    box-shadow: 3px 3px 3px black;
+    top: 20px;
+    border-radius: 5px;
+}
+form button{
+    background-color: rgba(3, 40, 127, 0.971);
+    border-radius: 5px;
+    padding:       10px 10px;
+    border-color: rgba(206, 126, 126, 0);
+    color:#ffffff;
+    display:inline-block;
+    font:normal bold 12px/1 "Open Sans", sans-serif;
+    text-align:center;
+    font-family:'Nunito', sans-serif;
+    width:40%;
+    position:relative;
+    top: 70px;
+    left: 30%;
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.61);
+}
+.contact-us{
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-radius: 20px;
+    padding: 25px; 
+  }
+  .grid-item {
+    background-color: rgba(214, 0, 0, 0);
+    border: 1px solid rgba(226, 226, 226, 0.116);
+    color: rgb(200, 200, 200);
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
+  }
+ #contact-page{
+     position: relative;
+     bottom: 20px;
+     width: 100%;
+     height:75vh;
+     background-size: cover;
+     background:linear-gradient(to bottom, rgb(52, 23, 132) 0%, #050257 100%);   
+ }
+ #my-form-button{
+     cursor: pointer;
+ }
+ @media only screen and (min-width: 700px){
+    #first-page h1{
+        font-size: 38px;
+    }
+    #name-bold{
+        font-size: 39px;
+    }
+    #first-page-container{
+        width: 60%;
+        left: 30%;
+        top: 30%;
+    }
+    #first-page-button{
+        width: 40%;
+        left: 28%;   
+    }
+    #p-img,#p-img2,#p-img3,#p-img4{
+        width: 100%;
+        height: 45vh;
+       
+    }
+    #description{
+        width: 80%;
+        font-size: 22px;
+        color: rgb(65, 65, 65);
+    }
+    #project{
+        height: 80vh;
+    }
+    #projects-page{
+        height: 370vh;
+    }
+    .split{
+        width: 100%;
+        height: 9vh;
+        background-color: rgb(2, 2, 46);
+        position: relative;   
+    }
+ }
+ @media only screen and (min-width: 1000px){
+    #first-page h1{
+        font-size: 43px;
+    }
+    #name-bold{
+        font-size: 43px;
+    }
+    #home,#linkedin,#github{
+        width: 25px;
+        height: 25px;
+    }
+    header{
+        width: 100%;
+        flex-direction: row;
+    }
+    nav{
+        background-color: rgba(114, 114, 114, 0.067);
+        bottom: 40px;
+        width: 100%;
+        height: 25vh;
+        display: flex;
+        flex-direction: row;
+    }
+    ul{
+        justify-content: space-evenly;
+        top:40px;
+        color: white;
+        flex-direction: row;
+        right: 45%;
+        height: 15vh;
+        width: 30%;
+        left: 65%;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        text-shadow: 2px 3px 2px black;
+        font-family: 'Nunito', sans-serif;
+        font-size: 10px;
+        position: relative;
+        top: 35%;   
+    }
+    nav ul li a:hover{
+        color: red;
+        text-shadow: none;
+    }
+    /*  */
+    #first-page-container{
+        position: relative;
+        text-align: left;
+        width: 60%;
+        left: 23%;
+        top: 37%;
+        display: flex;
+        flex-direction: column;
+        }
+    #first-page h1{
+        color: rgb(217, 217, 217);
+        text-align: center;
+        position: relative;
+        font-size: 43px;
+        transition: 1s;
+        text-shadow: 6px 6px 3px rgba(0, 0, 0, 0.388);   
+        font-family: 'Open Sans', sans-serif;
+    }
+    #name-bold{
+        font-size: 43px;
+        color: rgb(0, 182, 189);
+        font-family: 'Open Sans', sans-serif;
+    }
+    #projects-page{
+        width: 100%;
+        height: 250vh;
+    }
+    #project{
+        top: 8%;
+        height:80vh;   
+    }
+    #button{
+        color: rgb(229, 229, 229);
+        border: none;
+        background-color: rgba(3, 40, 127, 0.971);
+        font-size: 12px;
+        padding: 10px 25px;
+        position: relative;
+        border-radius: 2px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.621);
+        text-decoration: none;
+    }
+    #ptitle{
+        text-align: none;
+        position: relative;
+        font-size: 35px;
+        left: 4%;
+        text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.587);
+    }
+    .whole-section{
+        display: flex;
+    }
+    #vap-button{
+        top: 200px;
+    }
+ }
+ @media screen and  (orientation: landscape) and (max-width:1000px)  {
+    #projects-page{
+        width: 100%;
+        height: 520vh;
+    }
+    #project{
+        width: 50%;
+        top: 8%;
+        height: 110vh;
+        left: 25%; 
+    }
+    header{
+        width: 100%;
+        flex-direction: row;
+    }
+    nav{
+        background-color: rgba(114, 114, 114, 0.067);
+        bottom: 40px;
+        width: 100%; height: 30vh;
+        display: flex;
+        flex-direction: row;  
+    }
+    ul{
+        justify-content: space-evenly;
+        color: white;
+        flex-direction: row;
+        right: 45%; height: 15vh; width: 30%; left: 65%; top:40px; 
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        text-shadow: 2px 3px 2px black;
+        font-family: 'Nunito', sans-serif;
+        font-size: 10px;
+        position: relative;
+        top: 35%;
+    }
+    
+    #first-page-container{
+        left: 22%;
+        }
+    #ptitle{
+        left: 25%;
+    }
+ }
